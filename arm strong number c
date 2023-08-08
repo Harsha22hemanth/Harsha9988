@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main ()
+{
+int i,n,r,sum=0,t;
+printf("enter the number:");
+scanf("%d",&n);
+t=n;
+while(n>0)
+{r=n%10;
+sum=sum+(r*r*r);
+n=n/10;
+
+}
+if (t==sum)
+printf("given number armstrong ");
+else
+printf("given number is not a arm strong ");
+}
